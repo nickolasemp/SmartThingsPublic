@@ -34,7 +34,7 @@ metadata {
 		multiAttributeTile(name: "contact", type: "generic", width: 6, height: 4) {
 			tileAttribute("device.contact", key: "PRIMARY_CONTROL") {
 				attributeState("open", label: '${name}', icon: "st.contact.contact.open", backgroundColor: "#ffa81e")
-				attributeState("closed", label: '${name}', icon: "st.contact.contact.closed", backgroundColor: "#79b821")
+				attributeState("closed", label: '${name}', icon: "st.contact.contact.closed", backgroundColor: "#ffffff") //79b821 -> green previously
 			}
 			tileAttribute("device.sensorStateChangedDate", key: "SECONDARY_CONTROL") {
 				attributeState("default", label:'At ${currentValue}')
